@@ -1,4 +1,4 @@
-# Projetos Legais
+# Projetos Legais (Javascript)
 
 Nesta seção, introduzo projetos práticos que faço ao decorrer dos dias.
 
