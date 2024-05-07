@@ -11,3 +11,4 @@ Sinta-se livre para sugerir algum aplicativo por meio deste formulário: <a> htt
 Aqui está uma lista com todos os projetos adicionados:
 
 01. Conversor de Moedas.
+02. Jogo da Velha.
