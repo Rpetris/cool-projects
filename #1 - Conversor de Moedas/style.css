@@ -2,11 +2,13 @@
 
 :root{
     --font-kanit: "Kanit", sans-serif;
-    --bg-color: #221f2f;
-    --before-color: #ed2ff0;
-    --after-color: #22a8cd;
-    --main-color: rgba(0, 0, 0, 0.40);
-    --input-border: #513ea7;
+    --bg-color: #0C0C0C;
+    --before-color: #F2613F;
+    --after-color: #9B3922;
+    --main-color: rgba(5, 5, 5, 0.4);
+    --main-border: #481e14a1;
+    --main-shadow: #481e14f5;
+    --input-border: #9B3922;
 }
 
 *{
@@ -46,10 +48,10 @@ body::after{
     color: #fff;
     background-color: var(--main-color);
 
-    border: 1px solid #2a1d4499;
-    box-shadow: 0 4px 30px #2a1d44e6;
-    backdrop-filter: blur(7.4px);
-    -webkit-backdrop-filter: blur(77.4px);
+    border: 1px solid var(--main-border);
+    box-shadow: 0 4px 30px var(--main-shadow);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
 }
 
 .main h2{
@@ -130,7 +132,7 @@ body::after{
 .main form button{
     height: 42px;
     color: #fff;
-    background-color: #20232c;
+    background-color: #222831;
     font-size: 1.1rem;
     cursor: pointer;
     transition: all 0.4s ease;
